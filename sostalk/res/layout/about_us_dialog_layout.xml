@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+	<LinearLayout
+	  android:orientation="horizontal"
+	  android:gravity="center_vertical"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+	  	<LinearLayout
+		  android:orientation="vertical"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		   android:padding="3dip">
+		  	<TextView android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		  		android:text="@string/about_info"/>
+	    </LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:padding="5dip">
+		<Button android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:id="@+id/okBtn"
+			android:layout_weight="0.5"
+			android:text="@string/ok"/>
+	</LinearLayout>
+</LinearLayout>

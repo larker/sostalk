@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="groupIndicatorLabeles">
+        <item>部门1</item>
+        <item>部门2</item>
+        <item>部门3</item>
+        <item>部门4</item>
+        <item>其他在线</item>
+    </string-array>
+    
+</resources>
